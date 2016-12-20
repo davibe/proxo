@@ -1,0 +1,21 @@
+{
+  "name": "proxo",
+  "version": "0.0.1",
+  "description": "A commandline http proxy supporting multiple endpoints",
+  "main": "src/proxo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "http",
+    "proxy",
+    "commandline"
+  ],
+  "author": "Davide Bertola <dade@dadeb.it>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "http-proxy": "^1.16.2",
+    "minimist": "^1.2.0"
+  }
+}

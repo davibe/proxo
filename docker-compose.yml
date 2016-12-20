@@ -1,0 +1,5 @@
+proxo:
+  build: .
+  ports:
+    - 3000:3000
+  command: --port 3000 --rule /::https://www.google.com
